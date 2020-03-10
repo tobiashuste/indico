@@ -79,6 +79,7 @@ DEFAULTS = {
     'SMTP_SERVER': ('localhost', 25),
     'SMTP_TIMEOUT': 30,
     'SMTP_USE_CELERY': True,
+    'SMTP_USE_SSL': False,
     'SMTP_USE_TLS': False,
     'SQLALCHEMY_DATABASE_URI': None,
     'SQLALCHEMY_MAX_OVERFLOW': 3,

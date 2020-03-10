@@ -94,6 +94,7 @@ class EmailBackend(BaseEmailBackend):
         self.port = port or config.SMTP_SERVER[1]
         self.username = config.SMTP_LOGIN if username is None else username
         self.password = config.SMTP_PASSWORD if password is None else password
+        self.use_ssl = config.SMTP_USE_SSL if use_ssl is None else use_ssl
         self.use_tls = config.SMTP_USE_TLS if use_tls is None else use_tls
         self.use_ssl = use_ssl
         self.timeout = timeout

@@ -454,6 +454,12 @@ Emails
 
     Default: ``None``
 
+.. data:: SMTP_USE_SSL
+
+    If enabled, SSL/TLS will be used to use an encrypted SMTP connection.
+
+    Default: ``False``
+
 .. data:: SMTP_USE_TLS
 
     If enabled, STARTTLS will be used to use an encrypted SMTP connection.
